@@ -2,23 +2,11 @@
 
 
 
-An experimental ROS 2 communication layer for exchanging cooperative-awareness
-
-and collision-warning information between mobile robots.
+An experimental ROS 2 communication layer for exchanging cooperative-awareness and collision-warning information between mobile robots.
 
 
 
-This repository was created as a building block for a TurtleBot experiment in
-
-which OptiTrack provides localization and custom ROS 2 messages carry robot
-
-state and obstacle-related information. The current revision contains the
-
-custom interfaces and example publisher/subscriber nodes. It does \*\*not\*\* yet
-
-include the OptiTrack bridge, a TurtleBot navigation stack, or a complete
-
-obstacle-avoidance controller.
+This repository was created as a building block for a TurtleBot experiment in which OptiTrack provides localization and custom ROS 2 messages carry robot state and obstacle-related information. The current revision contains the custom interfaces and example publisher/subscriber nodes. It does \*\*not\*\* yet include the OptiTrack bridge, a TurtleBot navigation stack, or a complete obstacle-avoidance controller.
 
 
 
