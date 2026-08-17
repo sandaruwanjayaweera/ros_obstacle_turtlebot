@@ -10,21 +10,15 @@ This repository was created as a building block for a TurtleBot experiment in wh
 
 
 
-> \*\*Project status:\*\* early research prototype. The CAM and DENM structures are
-
-> custom ROS 2 representations inspired by ETSI ITS messages; they are not a
-
-> standards-compliant ETSI ITS protocol implementation.
+> \*\*Project status:\*\* early research prototype. The CAM and DENM structures are custom ROS 2 representations inspired by ETSI ITS messages; they are not a standards-compliant ETSI ITS protocol implementation.
 
 
 
-\## Features
+## Features
 
 
 
-\- Custom ROS 2 message definitions for Cooperative Awareness Messages (CAMs)
-
-&#x20; and DENM collision warnings.
+\- Custom ROS 2 message definitions for Cooperative Awareness Messages (CAMs) and DENM collision warnings.
 
 \- Python publisher and subscriber nodes built with `rclpy`.
 
