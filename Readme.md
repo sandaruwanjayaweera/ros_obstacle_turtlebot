@@ -18,7 +18,7 @@ This repository was created as a building block for a TurtleBot experiment in wh
 
 
 
-\- Custom ROS 2 message definitions for Cooperative Awareness Messages (CAMs) and DENM collision warnings.
+- Custom ROS 2 message definitions for Cooperative Awareness Messages (CAMs) and DENM collision warnings.
 
 \- Python publisher and subscriber nodes built with `rclpy`.
 
