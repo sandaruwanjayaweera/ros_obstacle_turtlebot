@@ -56,33 +56,33 @@ obstacle-avoidance controller.
 
 ros\_obstacle\_turtlebot/
 
-â”œâ”€â”€ py\_custom/                  # Python ROS 2 package
+├── py\_custom/                  # Python ROS 2 package
 
-â”‚   â”œâ”€â”€ py\_custom/
+│   ├── py\_custom/
 
-â”‚   â”‚   â”œâ”€â”€ publisher\_member\_function.py
+│   │   ├── publisher\_member\_function.py
 
-â”‚   â”‚   â”œâ”€â”€ subscriber\_member\_function.py
+│   │   ├── subscriber\_member\_function.py
 
-â”‚   â”‚   â”œâ”€â”€ pub\_denm\_cw.py
+│   │   ├── pub\_denm\_cw.py
 
-â”‚   â”‚   â”œâ”€â”€ sub\_denm\_cw.py
+│   │   ├── sub\_denm\_cw.py
 
-â”‚   â”‚   â””â”€â”€ gps\_enu.py
+│   │   └── gps\_enu.py
 
-â”‚   â”œâ”€â”€ setup.py
+│   ├── setup.py
 
-â”‚   â””â”€â”€ package.xml
+│   └── package.xml
 
-â””â”€â”€ tutorial\_interfaces/       # Custom messages and service definitions
+└── tutorial\_interfaces/       # Custom messages and service definitions
 
-&#x20;   â”œâ”€â”€ msg/
+&#x20;   ├── msg/
 
-&#x20;   â”œâ”€â”€ srv/
+&#x20;   ├── srv/
 
-&#x20;   â”œâ”€â”€ CMakeLists.txt
+&#x20;   ├── CMakeLists.txt
 
-&#x20;   â””â”€â”€ package.xml
+&#x20;   └── package.xml
 
 ```
 
@@ -98,11 +98,11 @@ ros\_obstacle\_turtlebot/
 
 | `talker` | Publishes a CAM with synthetic position data | `tutorial\_interfaces/msg/CAM` | `/CAM` | 0.5 ms |
 
-| `listener` | Receives and logs CAM fields | `tutorial\_interfaces/msg/CAM` | `/CAM` | â€” |
+| `listener` | Receives and logs CAM fields | `tutorial\_interfaces/msg/CAM` | `/CAM` | — |
 
 | `talker\_cw` | Publishes a fixed DENM collision-warning example | `tutorial\_interfaces/msg/DENMCW` | `/topic` | 1 ms |
 
-| `listener\_cw` | Receives and logs DENM collision-warning fields | `tutorial\_interfaces/msg/DENMCW` | `/topic` | â€” |
+| `listener\_cw` | Receives and logs DENM collision-warning fields | `tutorial\_interfaces/msg/DENMCW` | `/topic` | — |
 
 
 
@@ -417,4 +417,6 @@ the project.
 
 
 \[Sandaruwan Jayaweera](https://github.com/sandaruwanjayaweera)
+
+
 
