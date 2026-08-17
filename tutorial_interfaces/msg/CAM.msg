@@ -1,0 +1,36 @@
+uint8 pdu_proto_version 4
+uint8 pdu_message_id 2
+uint32 pdu_src_station_id 100
+
+uint8 bc_station_type 0
+uint32 bc_ref_pos_lattitude 0
+uint32 bc_ref_pos_longitude 0
+uint16 bc_ref_pos_conf_ellipse_semi_major 0
+uint16 bc_ref_pos_conf_ellipse_semi_minor 0
+uint16 bc_ref_pos_altitude_heading 0
+uint32 bc_ref_pos_altitude_val 0
+uint8 bc_ref_pos_altitude_conf 0
+
+uint16 hf_heading_val 0
+uint8 hf_heading_conf 0
+uint16 hf_vertical_heading 0
+uint16 hf_speed_val 0
+uint8 hf_speed_conf 0
+uint16 hf_drive_dir_heading_val 0
+uint8 hf_drive_dir_heading_conf 0
+uint16 hf_drive_dir_vertical_heading 0
+uint16 hf_v_len_val 0
+uint8 hf_v_len_conf 0
+uint16 hf_v_width 0
+uint16 hf_v_height 0
+uint16 hf_long_acc_val 0
+uint8 hf_long_acc_conf 0
+uint16 hf_curv_val 0
+uint8 hf_curv_conf 0
+uint8 hf_curv_cal_mod 0
+uint16 hf_yaw_r_val 0
+uint8 hf_yaw_r_conf 0
+uint16 hf_lat_acc_val 0
+uint8 hf_lat_acc_conf 0
+uint16 hf_vertical_acc_val 0
+uint8 hf_vertical_acc_conf 0
