@@ -39,32 +39,19 @@ This repository was created as a building block for a TurtleBot experiment in wh
 ros\_obstacle\_turtlebot/
 
 ├── py\_custom/                  # Python ROS 2 package
-
 │   ├── py\_custom/
-
 │   │   ├── publisher\_member\_function.py
-
 │   │   ├── subscriber\_member\_function.py
-
 │   │   ├── pub\_denm\_cw.py
-
 │   │   ├── sub\_denm\_cw.py
-
 │   │   └── gps\_enu.py
-
 │   ├── setup.py
-
 │   └── package.xml
-
 └── tutorial\_interfaces/       # Custom messages and service definitions
-
-&#x20;   ├── msg/
-
-&#x20;   ├── srv/
-
-&#x20;   ├── CMakeLists.txt
-
-&#x20;   └── package.xml
+          ├── msg/
+          ├── srv/
+          ├── CMakeLists.txt
+          └── package.xml
 
 ```
 
