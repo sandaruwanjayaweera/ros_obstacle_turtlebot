@@ -57,7 +57,7 @@ ros\_obstacle\_turtlebot/
 
 
 
-\## ROS 2 nodes and topics
+## ROS 2 nodes and topics
 
 
 
