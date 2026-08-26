@@ -62,16 +62,11 @@ ros\_obstacle\_turtlebot/
 
 
 | Executable | Function | Interface | Topic | Current publish period |
-
-| --- | --- | --- | --- | --- |
-
-| `talker` | Publishes a CAM with synthetic position data | `tutorial\_interfaces/msg/CAM` | `/CAM` | 0.5 ms |
-
-| `listener` | Receives and logs CAM fields | `tutorial\_interfaces/msg/CAM` | `/CAM` | — |
-
-| `talker\_cw` | Publishes a fixed DENM collision-warning example | `tutorial\_interfaces/msg/DENMCW` | `/topic` | 1 ms |
-
-| `listener\_cw` | Receives and logs DENM collision-warning fields | `tutorial\_interfaces/msg/DENMCW` | `/topic` | — |
+| :--- | :--- | :--- | :---: | :---: |
+| `talker` | Publishes a CAM with synthetic position data | `tutorial_interfaces/msg/CAM` | `/CAM` | 0.5 ms |
+| `listener` | Receives and logs CAM fields | `tutorial_interfaces/msg/CAM` | `/CAM` | — |
+| `talker_cw` | Publishes a fixed DENM collision-warning example | `tutorial_interfaces/msg/DENMCW` | `/topic` | 1 ms |
+| `listener_cw` | Receives and logs DENM collision-warning fields | `tutorial_interfaces/msg/DENMCW` | `/topic` | — |
 
 
 
